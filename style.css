@@ -3,3 +3,39 @@ body {
   height: 100%;
   margin: 0;
 }
+#header {
+  text-align: center;
+}
+#featured-property img {
+  display: block;
+  margin: 0 auto;
+}
+.nav a {
+  display: inline-block;
+  padding: 10px;
+  background-color: grey; /* You can choose your preferred color */
+  text-align: center;
+}
+#image-caption {
+  font-size: 14px; /* Adjust the size as needed */
+  text-align: center;
+}
+#featured-property p {
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px 0; /* Add vertical spacing */
+}
+#details div {
+  float: left;
+  width: 25%; /* Each div occupies 25% of the width */
+}
+.bottom-div {
+  background-color: your-color; /* Choose a background color */
+  text-align: center;
+  width: 25%; /* Each div occupies 25% of the width */
+}
+<div class="bottom-div">...</div>
+<div class="bottom-div">...</div>
+<div class="bottom-div">...</div>
+<div class="bottom-div">...</div>
